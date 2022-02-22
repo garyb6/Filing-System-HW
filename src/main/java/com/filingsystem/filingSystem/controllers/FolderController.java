@@ -1,8 +1,6 @@
 package com.filingsystem.filingSystem.controllers;
 
-import com.filingsystem.filingSystem.models.File;
 import com.filingsystem.filingSystem.models.Folder;
-import com.filingsystem.filingSystem.repositories.FileRepository;
 import com.filingsystem.filingSystem.repositories.FolderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

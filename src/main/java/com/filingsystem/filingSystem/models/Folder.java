@@ -22,15 +22,16 @@ public class Folder {
     @JsonIgnoreProperties({"folders"})
     private User user;
 
-    @OneToMany(mappedBy = "Folder", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "Folder")
     @JsonIgnoreProperties({"folder"})
     private List<File> files;
 
 
     public Folder(String title, User user) {
         this.title = title;
-        this.files = new ArrayList<>();
         this.user = user;
+//        this.files = new ArrayList<>();
+
     }
 
     public Folder(){}
