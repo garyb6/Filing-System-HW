@@ -32,7 +32,7 @@ public class Folder {
         this.files = new ArrayList<>();
         this.user = user;
     }
-    
+
     public Folder(){}
 
     public Long getId() {
