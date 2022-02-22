@@ -2,7 +2,6 @@ package com.filingsystem.filingSystem.models;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 
