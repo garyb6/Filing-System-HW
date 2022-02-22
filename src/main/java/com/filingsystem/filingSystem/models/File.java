@@ -34,6 +34,7 @@ public class File {
         this.size = size;
         this.folder = folder;
     }
+    public File(){}
 
     public Long getId() {
         return id;
